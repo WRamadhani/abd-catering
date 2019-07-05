@@ -1,7 +1,7 @@
 # abd-catering
 Website pemesanan makanan (Catering) online
 
-<a href="https:wadhani.000webhostapp.com">DEMO</a>
+<a href="https://wadhani.000webhostapp.com" target="_blank">DEMO</a>
 
 # FITUR
 - pemesanan makanan dengan paket
