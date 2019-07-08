@@ -1,0 +1,166 @@
+.bg-patern {
+	background: url("../bg-pattern.png"), linear-gradient(to bottom, #7b4397, #dc2430);
+	height: 100vh;
+}
+
+.border-kuning {
+	border: 1px solid #F1A1A1;
+}
+
+body {
+  
+  font-size: .75rem;
+  background: linear-gradient(to top right, #C39EA0, #F8E5E5);
+}
+
+.logo {
+  font-size: 1.5rem;
+  padding: 0px 3px 0px 3px;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border: 2px solid #eaecf4;
+  color: #eaecf4;
+}
+
+.rud {
+  padding-top: 2rem;
+  font-size: 1.5rem;
+  margin-left: .2rem;
+  color: #eaecf4;
+}
+
+._item {
+  display: block;
+  padding: 5px 5px 5px 5px;
+  border-bottom: 3px solid #c81d4b;
+  border-right: 1px solid #c81d4b;
+}
+
+._item:hover {
+  background-color: #fa3a6a;
+  border-bottom: 10px solid #c81d4b;
+}
+
+._brand {
+  cursor: pointer;
+}
+
+._brand:hover {
+  background-color: #202020;
+}
+
+.divider {
+  display: inline-block;
+  border-top: 1px solid #eaecf4;
+}
+
+.n-link {
+  display: none;
+}
+
+#_3bar {
+  display: block;
+}
+
+.link-group{
+  margin-top: .2rem;
+  /*margin-left: 2rem;*/
+}
+
+.bg-hitam {
+  background-color: #000000;
+}
+
+.bg-merah {
+  background-color: #FA255E;
+}
+
+.bg-pink {
+  background-color: #F8E5E5; 
+}
+
+.input-pink:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #F1A1A1;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem #F1A1A1;
+}
+
+.btn-pink {
+  color: #fff;
+  background-color: #F1A1A1;
+  border-color: #F1A1A1;
+}
+
+.btn-pink:hover {
+  color: #fff;
+  background-color: #F4B8B8;
+  border-color: #F4B8B8;
+}
+
+@media(width: 320px) {
+  ._item {
+    display: block;
+    padding: 2px 5px 2px 2px;
+    border-bottom: 3px solid #c81d4b;
+  }
+}
+
+@media(min-width: 500px) {
+  body {
+    font-size: 1rem;
+  }
+  .link-group{
+    margin-left: 2rem;
+  }
+  .mtop {
+    margin-top: 1rem;
+  }
+  #_3bar {
+    display: none;
+  }
+
+  ._item, ._brand {
+    padding: 0px 20px 0px 20px;
+  }
+}
+
+@media(min-width: 630px){
+  .n-link {
+    display: inline-block;
+  }
+  ._item, ._brand {
+    padding: 0px 12px 0px 0px;
+  }
+  .link-group{
+    margin-left: 1rem;
+  }
+}
+
+@media(min-width: 768px) {
+  .link-group {
+    margin-top: 2rem;
+    margin-left: -.5rem;
+  }
+
+  ._brand {
+    width: calc(100vw / 6);
+    padding: 1rem;
+    border-bottom: 3px solid #909090;
+  }
+
+  ._item {
+    width: calc(100vw / 5.5);
+    padding: .5rem 0px .5rem 20px;
+    border-right: 3px solid #c81d4b;
+  }
+  #sidebar {
+    min-width: 5vw;
+    min-height: 100vh;
+  }
+}
+
+@media(min-width: 1024px) {
+}
