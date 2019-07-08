@@ -8,6 +8,7 @@ Website pemesanan makanan (Catering) online
 - multi-user (admin, caterer, user)
 - testimoni
 - responsif
+- riwayat pesanan
 
 # INSTALASI
 - cp .env.example .env
@@ -15,3 +16,5 @@ Website pemesanan makanan (Catering) online
 - php artisan key:generate
 - edit file .env sesuaikan nama, username, dan password database
 - php artisan migrate --seed
+- php artisan storage:link
+- php artisan serve
