@@ -1,5 +1,5 @@
 # abd-catering
-Website pemesanan makanan (Catering) online
+Website pemesanan makanan (Catering) online menggunakan framework <a href="https://laravel.com/">Laravel</a>
 
 <a href="https://wadhani.000webhostapp.com" target="_blank">DEMO</a>
 
